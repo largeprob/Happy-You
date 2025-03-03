@@ -10,4 +10,6 @@ English | [中文](./README.zh-CN.md)
 
 ## Run
 
-`run index.html`
+`pnpm i`
+
+`pnpm start`
