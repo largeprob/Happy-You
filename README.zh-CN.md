@@ -10,4 +10,6 @@
 
 ## 运行
 
-`run index.html`
+`pnpm i`
+
+`pnpm start`

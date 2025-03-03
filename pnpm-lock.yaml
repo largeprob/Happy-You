@@ -11,13 +11,6 @@ importers:
       lite-server:
         specifier: ^2.6.1
         version: 2.6.1
-    devDependencies:
-      browser-sync:
-        specifier: ^2.18.13
-        version: 2.29.3
-      run-script-os:
-        specifier: ^1.0.2
-        version: 1.1.6
 
 packages:
 
@@ -440,10 +433,6 @@ packages:
   resp-modifier@6.0.2:
     resolution: {integrity: sha512-U1+0kWC/+4ncRFYqQWTx/3qkfE6a4B/h3XXgmXypfa0SPZ3t7cbbaFk297PjQS/yov24R18h6OZe6iZwj3NSLw==}
     engines: {node: '>= 0.8.0'}
-
-  run-script-os@1.1.6:
-    resolution: {integrity: sha512-ql6P2LzhBTTDfzKts+Qo4H94VUKpxKDFz6QxxwaUZN0mwvi7L3lpOI7BqPCq7lgDh3XLl0dpeXwfcVIitlrYrw==}
-    hasBin: true
 
   rx@4.1.0:
     resolution: {integrity: sha512-CiaiuN6gapkdl+cZUr67W6I8jquN4lkak3vtIsIWCl4XIPP8ffsoyN6/+PuGXnQy8Cu8W2y9Xxh31Rq4M6wUug==}
@@ -1041,8 +1030,6 @@ snapshots:
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
-
-  run-script-os@1.1.6: {}
 
   rx@4.1.0: {}
 
