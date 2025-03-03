@@ -1,23 +1,29 @@
 {
-  "greeting": "Hiya",
-  "name": "Lydia",
-  "greetingText": "I really like your name btw!",
-  "wishText": "May the js.prototypes always be with you! ;)",
+  "greeting": "你好呀！",
+  "name": "悠悠",
+  "greetingText": "你知道今天是什么日子吗？一个关于你的，也关于我们的重要节日.",
+  "wishText": "年年十八如桃李，笑靥如花常盈盈。岁月不老心常暖，自由快乐每一天。 ;)",
   "imagePath": "img/lydia2.png",
-  "text1": "It's your birthday!!! :D",
-  "textInChatBox": "Happy birthday to you!! Yeee! Many many happy blah...",
-  "sendButtonLabel": "Send",
-  "text2": "That's what I was going to do.",
-  "text3": "But then I stopped.",
-  "text4": "I realised, I wanted to do something",
-  "text4Adjective": "special",
-  "text5Entry": "Because,",
-  "text5Content": "You are Special",
+  "text1": "今天是你的生日 :D",
+  "textInChatBox": "非常非常真挚的。。。。。。",
+  "sendButtonLabel": "发送祝福",
+  "text2": "我想给你一个惊喜",
+  "text3": "我认真的想了很久",
+  "text4": "我认识到，我想要做一些",
+  "text4Adjective": "特殊的事情",
+  "text5Entry": "因为,",
+  "text5Content": "你对于我来说很重要！",
   "smiley": ":)",
-  "bigTextPart1": "S",
-  "bigTextPart2": "O",
+  "bigTextPart1": "所",
+  "bigTextPart2": "以",
   "wishHeading": "Happy Birthday!",
-  "outroText": "Okay, now come back and tell me if you liked it.",
-  "replayText": "Or click, if you want to watch it again.",
-  "outroSmiley": ":)"
+  "outroText": "我希望你喜欢这个小小的惊喜!",
+  "replayText": "如果你喜欢的话，可以再看一次哦!",
+  "outroSmiley": ":)",
+  "fonts": [
+    {
+      "name": "Ma Shan Zheng",
+      "path": "https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap"
+    }
+  ]
 }

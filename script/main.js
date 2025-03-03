@@ -10,6 +10,19 @@ const fetchData = () => {
             document
               .querySelector(`[data-node-name*="${customData}"]`)
               .setAttribute("src", data[customData]);
+          } else if (customData === "fonts") {
+            data[customData].forEach(font => {
+              const link = document.createElement('link')
+              link.rel = 'stylesheet'
+              link.href = font.path
+              document.head.appendChild(link)
+              //设置body字体
+              document.body.style.fontFamily = font.name
+            })
+          } else if (customData === "music") {
+            audioUrl = data[customData]
+            audio = new Audio(audioUrl)
+            audio.preload = "auto"
           } else {
             document.querySelector(`[data-node-name*="${customData}"]`).innerText = data[customData];
           }
@@ -17,9 +30,9 @@ const fetchData = () => {
 
         // Check if the iteration is over
         // Run amimation if so
-        if ( dataArr.length === dataArr.indexOf(customData) + 1 ) {
+        if (dataArr.length === dataArr.indexOf(customData) + 1) {
           animationTimeline();
-        } 
+        }
       });
     });
 };
